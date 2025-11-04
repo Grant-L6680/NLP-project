@@ -1,0 +1,18 @@
+(1)
+English‑Dictionary‑Database (2025) English-Dictionary-Database [online]. Available at: https://github.com/benjihillard/English-Dictionary-Database
+ (Accessed: 30 October 2025).
+
+(2)
+
+ StackOverflow (2014) Read a small random sample from a big CSV file into a Pandas data frame [online]. Available at: https://stackoverflow.com/questions/22258491/read-a-small-random-sample-from-a-big-csv-file-into-a-pandas-data-frame
+ (Accessed: 30 October 2025).
+
+
+ (3)
+
+ ChatGPT said:
+
+StackOverflow (2019) Cleaning Text with python and re [online]. Available at: https://stackoverflow.com/questions/55187374/cleaning-text-with-python-and-re/
+ (Accessed: 2 November 2025).
+
+(4)

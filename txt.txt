@@ -1,0 +1,199 @@
+text analytics
+
+2 docs
+
+pre process
+representation learning 
+algorithm
+
+text classification
+
+binary classification sentiment analysis,spam detection
+multi class allocating one label from multiple possible
+multi label allocating multiple labels from mulltiple possible
+
+text classification
+
+3  process
+
+understanding the classification requirements for data
+binary multiclass multilabel
+
+undertanding the task
+
+something else
+
+classification = learning to associate an example x with a label y from a set of y labels
+classification requires limits
+
+binary where y = 2
+
+multi class where y > 2
+
+multi label where x is associated with multiple y ( y 
+
+
+
+nominal vs ordinal classification 
+
+nominal = no order
+cats v dogs 
+no order 
+
+ordinal = order
+star ratings
+essay grades
+
+ner
+
+name entity recognition
+
+john studies computing at harvard
+computing = course {0,3,course}
+john = person {0,3,person}
+harvard = organization {0,7,organization}
+location = harvard university {0,7,location}
+
+
+pegasus for training 
+
+blue and something else for analysis resuts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# LANGUAGE SYNTAX & PRIMITIVES
+
+Code	Comment
+if / elif / else	conditional logic
+for / while	loops
+break / continue	control loop flow
+try / except / finally	error handling
+with	context manager
+def / return / yield / lambda	functions & generators
+class	define object type
+import / from / as	bring modules into scope
+global / nonlocal	variable scope control
+pass / del / assert	do nothing / delete / enforce condition
+match / case	structural pattern matching
+None, True, False	core constants
+list, tuple, set, dict	data structures
++ - * / // % **	arithmetic ops
+and / or / not	boolean logic
+in / not in	membership tests
+is / is not	identity tests
+== != > < >= <=	comparison ops
+# BUILT-IN FUNCTIONS
+
+Code	Comment
+print()	output text
+len()	length of object
+type(), isinstance()	check object type
+dir(), help()	introspection
+repr(), str()	string representations
+int(), float(), bool()	cast types
+range()	sequence for loops
+enumerate()	loop with index
+zip()	pair iterables
+map(), filter()	functional ops
+sorted(), reversed()	ordering sequences
+sum(), min(), max(), abs(), round()	numeric utility
+open()	file handle
+any(), all()	boolean reduction
+input()	user input (rare in notebooks)
+# COMMON EXCEPTIONS
+
+Code	Comment
+ValueError, TypeError	bad value / type mismatch
+KeyError, IndexError	invalid key or index
+AttributeError	missing attribute
+ImportError	module load failure
+FileNotFoundError	missing file
+ZeroDivisionError	divide by zero
+AssertionError	failed assert
+# STANDARD LIBRARY MODULES
+
+Code	Comment
+sys, os, pathlib	system and paths
+subprocess	run shell commands
+logging	structured logging
+shutil, tempfile	file ops, temp files
+csv, json	structured I/O
+pickle	serialize objects
+sqlite3	lightweight database
+gzip, zipfile, tarfile	compression
+datetime, time	dates & timing
+math, statistics, random	numeric utilities
+fractions, decimal	exact arithmetic
+urllib, http	low level HTTP
+socket	networking
+collections	data containers
+itertools, functools, operator	iterable & function tools
+heapq, bisect	algorithms
+threading, multiprocessing	concurrency
+asyncio	async tasks
+unittest, doctest	testing
+# OOP / SPECIAL METHODS
+
+Code	Comment
+@property	getter as attribute
+init	constructor
+str, repr	string display
+len, iter	container behavior
+getitem, setitem	index access
+# FILE & PATH OPERATIONS
+
+Code	Comment
+open()	open file
+pathlib.Path()	object path interface
+os.listdir(), os.walk()	directory scanning
+shutil.copy(), move(), rmtree()	file ops
+# NOTEBOOK COMMANDS
+
+Code	Comment
+%pip install pkg	install inside notebook
+%load_ext	load notebook extension
+%time / %timeit	timing magic
+%%bash	run shell block
+%%writefile	write file from cell
+# STRING OPS (DATA WORK)
+
+Code	Comment
+str.lower(), upper(), strip()	normalize text
+str.split(), replace()	token & substitution
+# CORE DATA WORKFLOW COMPONENTS
+
+Code	Comment
+int(), float(), str(), bool()	cleaning type coercion
+for, if, comprehensions	iteration & filtering
+try / except	guard messy data
+pathlib.Path()	portable file paths
+# PANDAS ESSENTIALS
+
+Code	Comment
+pd.read_csv(), to_csv()	load/save CSV
+df.head(), info(), describe()	inspect data
+df.columns, dtypes	check schema
+df.rename(), drop(), astype()	column ops
+df.sort_values(), query()	sort/filter rows
+df.isna(), dropna(), fillna()	missing data
+df.duplicated(), drop_duplicates()	deduplicate
+df["col"].str...	string cleaning
+pd.to_datetime(), to_numeric()	type conversion
+df.groupby().agg()	aggregation
+df.pivot(), melt()	reshape
+pd.merge(), concat()	join datasets

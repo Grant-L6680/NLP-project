@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../Downloads/English-Dictionary-Database-main/English-Dictionary-Database-main"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "English-Dictionary-Database-main"
+  }
+}
+
