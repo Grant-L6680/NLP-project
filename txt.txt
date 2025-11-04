@@ -197,3 +197,19 @@ pd.to_datetime(), to_numeric()	type conversion
 df.groupby().agg()	aggregation
 df.pivot(), melt()	reshape
 pd.merge(), concat()	join datasets
+
+
+
+
+
+
+NLG class notes:
+
+reiter 2007 diagram.
+
+levenshtein distance (similarity between two different strings)
+
+bleu gold standard reference text
+rouge (n) scoring symantical vs lexical 
+bert - score as foundation to score important semantics
+readability score flesch kincaid
