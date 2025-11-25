@@ -1,0 +1,33 @@
+(1) csv (english_dictionary.csv)
+English‑Dictionary‑Database (2025) English-Dictionary-Database [online]. Available at: https://github.com/benjihillard/English-Dictionary-Database
+ (Accessed: 30 October 2025).
+
+(2) csv (word_definitions.csv)
+
+Primordic (n.d.) WordDefinitionsLite [dataset]. Hugging Face. Available at: https://huggingface.co/datasets/primordic/WordDefinitionsLite
+ (Accessed: 22 November 2025).
+
+(3)
+
+StackOverflow (2019) Cleaning Text with python and re [online]. Available at: https://stackoverflow.com/questions/55187374/cleaning-text-with-python-and-re/
+ (Accessed: 2 November 2025).
+
+
+ (5)
+
+ https://www.youtube.com/watch?v=6pkqIVfr_VE&t=99s
+
+ (6)
+
+ StackOverflow (2015) Match a whole word in a string using dynamic regex [online]. Available at: https://stackoverflow.com/questions/29996079/match-a-whole-word-in-a-string-using-dynamic-regex
+ (Accessed: 3 November 2025).
+
+ (7)
+
+ https://www.youtube.com/watch?v=aj1V9_5nAfo
+
+ (8)
+
+ https://www.youtube.com/watch?v=BGWpNQHIcs4&t=9s
+
+ 
